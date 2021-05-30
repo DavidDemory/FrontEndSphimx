@@ -1,0 +1,50 @@
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 3.33rem;
+  background-color: rgba(58, 58, 58, 0.8);
+  width: 100%;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.25);
+}
+
+.cardBody {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 3rem 0;
+}
+.cardBody .cardContent p {
+  line-height: 1.5;
+  font-weight: 400;
+}
+.cardBody .cardPublication {
+  margin-top: 1rem;
+  font-weight: 300;
+}
+.cardImage {
+  margin-bottom: 1rem;
+}
+.cardImage img {
+  width: 100%;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.25);
+}
